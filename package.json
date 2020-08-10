@@ -4,8 +4,9 @@
   "author": "Evan You <yyx990803@gmail.com>,Jack Chou <jackzhoumine@gmail.com>",
   "private": true,
   "scripts": {
+    "test": "npm run lint && npm run test:unit",
     "lint": "eslint src --fix",
-    "test:unit": "npm run lint && jest --no-cache",
+    "test:unit": "jest --no-cache",
     "dev": "node server",
     "start": "cross-env NODE_ENV=production node server",
     "build": "rimraf dist && npm run build:client && npm run build:server",
@@ -46,6 +47,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "file-loader": "^1.1.5",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "jest": "^26.3.0",
     "rimraf": "^2.6.2",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
