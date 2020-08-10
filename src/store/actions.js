@@ -1,3 +1,10 @@
+/*
+ * @Description: action
+ * @Date: 2020-08-11 01:26:13 +0800
+ * @Author: JackChouMine
+ * @LastEditTime: 2020-08-11 02:37:12 +0800
+ * @LastEditors: JackChouMine
+ */
 import {
   fetchUser,
   fetchItems,
@@ -6,6 +13,7 @@ import {
 
 export default {
   // ensure data for rendering given list type
+  // eslint-disable-next-line no-unused-vars
   FETCH_LIST_DATA: ({ commit, dispatch, state }, { type }) => {
     commit('SET_ACTIVE_TYPE', { type })
     return fetchIdsByType(type)

@@ -1,3 +1,11 @@
+/* eslint-disable no-undef */
+/*
+ * @Description:  api 
+ * @Date: 2020-08-11 01:26:13 +0800
+ * @Author: JackChouMine
+ * @LastEditTime: 2020-08-11 02:15:46 +0800
+ * @LastEditors: JackChouMine
+ */
 // this is aliased in webpack config based on server/client build
 import { createAPI } from 'create-api'
 

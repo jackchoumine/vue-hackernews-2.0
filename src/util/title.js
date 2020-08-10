@@ -1,3 +1,11 @@
+/*
+ * @Description: 根据函数
+ * @Date: 2020-08-11 01:26:13 +0800
+ * @Author: JackChouMine
+ * @LastEditTime: 2020-08-11 02:37:59 +0800
+ * @LastEditors: JackChouMine
+ */
+/* eslint-disable no-undef */
 function getTitle (vm) {
   const { title } = vm.$options
   if (title) {

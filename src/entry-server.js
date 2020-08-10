@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @Date: 2020-08-11 01:26:13 +0800
+ * @Author: JackChouMine
+ * @LastEditTime: 2020-08-11 02:16:11 +0800
+ * @LastEditors: JackChouMine
+ */
+/* eslint-disable no-undef */
 import { createApp } from './app'
 
 const isDev = process.env.NODE_ENV !== 'production'

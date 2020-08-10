@@ -1,8 +1,9 @@
+/* eslint-disable no-undef */
 /*
  * @Description: Item 组件测试文件
  * @Date: Tue Aug 11 2020 01:47:26
  * @Author: JackChouMine
- * @LastEditTime: 2020-08-11 01:54:23 +0800
+ * @LastEditTime: 2020-08-11 02:39:05 +0800
  * @LastEditors: JackChouMine
  */
 // 第一个参数是测试报告中的说明文字
